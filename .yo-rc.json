@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "serverPort": "8081",
+    "serviceDiscoveryType": false,
+    "skipUserManagement": true,
+    "baseName": "kproduct",
+    "buildTool": "gradle",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "fr"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "microservice",
+    "packageName": "com.sendilkumarn.sample.kproduct",
+    "packageFolder": "com/sendilkumarn/sample/kproduct",
+    "jhipsterVersion": "6.10.0",
+    "creationTimestamp": 1593472500344,
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "Mjc2Y2MxYmExYTc3MWYxY2ZhOWNjM2NmNmJlNTE5NjNmZmIwYzZiNjNhZWY3YTU1ZTU0MzNlYzYwMmU3ZjJmMWEzYWExM2M4NjgzODM2MjdhMTY4M2QxYWJlMWMwYzM0ZGI4ZDk4ODU0MGVkNzMyMjdjYzQ1OTVlZTViMGQxZDc=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.8.1"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.8.1"
+      }
+    ]
+  },
+  "entities": ["Product", "ProductCategory", "ProductOrder", "OrderItem"]
+}
